@@ -12,6 +12,14 @@ existing ones:
 
 - `pins/` — full pin-shaped marker replacements, numbered `pin-1.png` … `pin-N.png`.
   Each has its own pointed tip baked in (anchor at the bottom, not the center).
+- `pins-lucide/` — glyph icons (no pin shape of their own; centered/bottom-anchored
+  like a normal custom icon), one per [Lucide](https://lucide.dev) icon name, e.g.
+  `pins-lucide/anchor.png`. Fixed black line art on a transparent background, not
+  recolorable. Generated from the `lucide-static` npm package by
+  `scripts/generate-lucide-pin-glyphs.mjs` in the `mapcraft-svg-map-creator` repo;
+  regenerate and re-publish here after bumping that package's pinned version.
+  ISC-licensed (see `pins-lucide/LICENSE`) — the license must ship alongside any
+  copy of these files per its terms.
 
 ## URL format
 
